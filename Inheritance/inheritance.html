@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SASS Test Inheritance</title>
+	<link rel="stylesheet" type="text/css" href="inheritance.css">
+	<script>
+	function myFunction() {
+	    document.getElementById("message").innerHTML = "Saya Ayya, Siapa saya ?";
+  document.getElementById("message").classList.add('message');
+	    document.getElementById("succes").innerHTML = "Sukses, Saya Ayya, Siapa saya ?";
+  document.getElementById("succes").classList.add('success');
+	    document.getElementById("warning").innerHTML = "warning, Saya Ayya, Siapa saya ?";
+  document.getElementById("warning").classList.add('warning');
+  
+	    document.getElementById("error").innerHTML = "error, Saya Ayya, Siapa saya ?";
+  document.getElementById("error").classList.add('error');
+	}
+	</script>
+</head>
+
+<body>
+		<button name="btn" onclick="myFunction()">Klik</button>
+		<br>
+		<p id="message" ></p>
+		<br>
+		<p id="succes" ></p>
+		<br>
+		<p id="warning" ></p>
+		<br>
+		<p id="error" ></p>
+		<br>
+
+</body>
+</html>
